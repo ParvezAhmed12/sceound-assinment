@@ -1,0 +1,82 @@
+
+
+/* banner design start */
+.banner-title{
+    height: 1340px;
+    width: 100%;
+    background-color: ;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 122px ;
+    margin-right: 100px;
+
+   
+    
+  }
+ /* ul .list {
+    display: flex;
+   text-decoration: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  } */
+
+
+  /* .list-item{
+    display: flex;
+   text-decoration: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+  }
+    */
+    
+    ul{
+        display: flex;
+       
+        
+
+    }
+   ul  li {
+        text-decoration: none ;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-right: 40px;
+        
+        
+
+    }
+  .container-1{
+    
+    align-items: center;
+    text-align: center;
+
+  }
+   .btn-1 {
+    color: #fff;
+    background-color: #FF900E;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom:  21px;
+    padding-left:  24px;
+    padding-right:  25px;
+    border: 0px;
+    margin-top: 32px;
+    
+  }
+  .banner-img{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 240px;
+  }
+  /* banner design end */
+  
+
+
+  
+ 
+  
+  
