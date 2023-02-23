@@ -4,15 +4,16 @@ body{
 
 /* banner design start */
 .banner-title{
-    height: 1240px;
+    height: 1140px;
     width: 100%;
     background-color: #ffe6e6 ;
 }
 .container {
     display: flex;
-    justify-content: space-between;
-    margin-left: 122px ;
+    justify-content: space-between; 
+    margin-left: 200px ;
     margin-right: 100px;
+
 
    
     
@@ -65,8 +66,9 @@ body{
   }
   .banner-img{
     margin-top: 50px;
-    margin-left: 140px;
-    margin-right: 240px;
+    margin-left: 380px;
+    margin-right: 200px;
+    
   }
   /* banner design end */
    
@@ -142,7 +144,7 @@ body{
 	width: 45%;
   
 }
-.box-2{
+.final-btn{
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 46px;
@@ -159,9 +161,59 @@ body{
 .year{
   font-size: 50px;
 }
+/* section part 3 */
+.sp3{
+  margin-top: 1000px;
+  /* align-items: center; do not work */
+     margin-left: 250px;
+     /* display: flex; */
+}
+.facts{ margin-bottom: 70px;
+}
+  
 
 
+.box-item{
+  display: flex;
+}
+.box2-possitio{
+  align-items: center;
+   margin-top: 20px;  
+   margin-left: 40px;
 
+}
+.box2 {
+	border: 2px solid #FF900E;
+  border-radius: 5px;
+	float: left;
+  justify-content:space-around;
+	margin-right: 120px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 200px;
+	height: 250px;
+}
+
+.box2 img {
+	max-width: 45px;
+	height: 45px;
+	align-items: center;
+	
+}
+/* final section */
+
+.our-sponspors{
+  align-items: center;
+
+}
+.img-for-sponspors{
+  display: flex;
+}
+.img-spns{
+  height: 166px;
+  width: 76px;
+
+}
   
  
   
