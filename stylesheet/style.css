@@ -1,10 +1,13 @@
 body{
   margin:auto;
+  font-family: 'Fira Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
+
 
 /* banner design start */
 .banner-title{
-    height: 1060px;
+    height: 1240px;
     width: 100%;
     background-color: #ffe6e6 ;
 
@@ -39,7 +42,7 @@ body{
     }
    ul  li {
          text-decoration: none ; 
-        margin-left: 20px;
+        margin-left: 15px;
         margin-top:45px;
         margin-right: 40px;
         
@@ -124,8 +127,16 @@ body{
      margin-right: 100px;
   }
 /* container right side design */
-.h1-ql{
+.quick{
   display: flex;
+  color:#727272;
+}
+.of{
+  margin-top: -50px;
+  margin-left: 160px;
+}
+.features{
+  color: #FF900E;
 }
 .quick-list{
   color: #131313;
@@ -161,7 +172,7 @@ hr{
   clear: both;
   display: block; */
 }
-.features{
+.features-you{
   margin-left: 10px;
 }
 .box {
@@ -267,6 +278,122 @@ hr{
     padding-left:  0px;
     padding-right: 0px;
   }
+ @media screen and (max-width:576px) {
+  .banner-title{
+    background-color: burlywood;
+    }
+.list{
+
+  display: flex;
+  margin-left: -100px;
+  justify-content: space-around;
+  
+}
+
+.banner-img{
+ margin-right: 0%;
+margin-left: 10%;
+}
+.image{
+  width: 40%;
+  height: 40%;
+  margin-right: 10%;
+}
+.container-right{
+  text-align: center;
+}
+.section-part1{
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template: 1, 1fr;
+}
+.quick{
+  display: flex;
+  /* flex-direction: column; */
+  margin-left: -3px;
+  
+}
+.of{
+  margin-top: -48px;
+  margin-left: -80px;
+  
+}
+.features{
+  margin-top: -48px;
+  margin-right: -180px;
+  text-align: center;
+}
+.section-part-2{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side{
+  align-items: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+ } 
+ .final-btn{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 30px;
+ }
+
+
  
+ .left-side{
+ 
+ margin-top: 0px;
+ 
+
+}
+.features-you{
+  margin-top: 0px;
+  margin-left: 0px; 
+
+
+}
+.sp3{
+  margin-top: 0px ;
+}
+.box-item{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.img-for-sponspors{
+  display: grid;
+ grid-template: 2 , 1fr;
+}
+
+ }
+ @media screen and (min-width:577px) and (max-withd:1024px)
+ {
+
+.banner-title{
+    height:auto;
+    width: 100%vh;
+    background-color: #e11bc0
+
   
-  
+ }
+.sp3{
+  margin-left: -140px;
+ /* display: flex;
+ flex-direction: column; */
+ margin-top: -150px;
+
+
+}
+.box-item{
+
+
+/* display: grid;
+grid-template:  1fr, 2; */
+display: flex;
+  flex-direction: column;
+
+}
+ }
